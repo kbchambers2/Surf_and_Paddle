@@ -1,0 +1,376 @@
+html {
+  background: white;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  }
+  .MainContainer {
+    width: 1300px;
+  }
+  .Header {
+    height: 200px;
+    background-image: url(http://i63.tinypic.com/v2y62r.jpg);
+    position:relative;
+  }
+  .footer {
+    background-color: #083452;
+    color: grey;
+    font-size: 12px;
+    height: 60px;
+    text-align: center;
+    margin: auto;
+  }
+  .itemBar {
+  float: right;
+  position: relative;
+  right: 80px; bottom: 48px;
+  }
+  .TIY {
+  width: 500px;
+  margin: 0;
+  position: relative;
+  top: 25px;
+  }
+  .tiyPic {
+  position: relative;
+  right: 180px;
+  width: 25px;
+  }
+  .copyTIY {
+  width: 300px;
+  margin: 0;
+  position: relative;
+  left: 80px; bottom: 20px;
+  }
+  ul {
+    list-style-type: none;
+  }
+  ul li {
+    display: inline;
+  }
+  h1 {
+    margin: 0;
+    font-size: 80px;
+    color: white;
+  }
+  p {
+    margin: 0;
+  }
+.Blog {
+display: inline-flex;
+position: absolute;
+right: 80%;
+bottom: 155px;
+margin: 0;
+}
+.logo {
+  position: relative;
+  bottom: 4px; right: 4px;
+}
+.logo:hover {
+transform: rotateY(180deg);
+}
+.glass:hover {
+transform: rotateZ(180deg);
+}
+.SearchIcon {
+position: absolute;
+left: 80%; bottom: 75%;
+}
+.CompanyName {
+  text-align: center;
+  position: relative;
+  top: 40px;
+}
+.article {
+  width: 500px;
+  position: relative;
+  left: 200px; height: 700px; bottom: 10px;
+}
+.LeftHeader {
+  margin: 0;
+  color: #083452;
+  font-size: 26px;
+}
+.LeftDate {
+  font-size: 12px;
+  padding-bottom: 25px;
+  position: relative;
+  bottom: 25px;
+}
+.leftprofile {
+  float: left;
+  position: relative;
+  bottom: 7px;
+  padding-right: 5px;
+}
+.leftName {
+  color: #106db3;
+  float: left;
+  padding-right: 10px;
+}
+.leftDate1 {
+  float: left;
+}
+.Paragraph1 {
+  font-size: 14px;
+}
+.article_aside {
+  height: 710px;
+}
+.aside {
+  width: 300px;
+  position: relative;
+  bottom: 670px; left: 740px;
+}
+.name {
+  text-align: center;
+  color: #106db3;
+}
+.asideProfile {
+}
+.profileRight {
+  position: relative;
+  left: 120px;
+}
+.socialMedia {
+  text-align: center;
+  font-size: 12px;
+  padding-bottom: 30px;
+
+}
+#thisAd {
+  text-align: center;
+  font-size: 12px;
+  float: right;
+  position: relative;
+  right: 12px;
+}
+.rightPicture {
+  text-align: center;
+  padding-bottom: 40px;
+}
+h5 {
+  color: #106db3;
+  font-size: 15px;
+  position: relative;
+  bottom: 20px;
+}
+.parRight {
+  font-size: 12px;
+  position: relative;
+  bottom: 40px;
+  color: lightgrey;
+}
+.LeftMiddle {
+  color: #106db3;
+  font-size: 20px;
+  border-left: 1px solid grey;
+}
+.commentIcon {
+  background-color: black;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 4px;
+  text-align: center;
+}
+.shareIcon {
+  background-color: darkblue;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 4px;
+  text-align: center;
+}
+.sharePost {
+  position: relative;
+  left: 4px; top: 2px;
+}
+.read {
+  display: inline-flex;
+  background-color: darkgrey;
+  color: white;
+  font-size: 11px;
+  width: 110px; height: 20px;
+  padding-right: 4px:
+}
+.read:hover {
+ transition: all 3s;
+ transition-timing: ease-in-out;
+ transform: rotate(360deg);
+}
+
+p.readComment {
+  position: relative;
+  left: 6px; top: 2px;
+}
+.later {
+  display: inline-flex;
+  background-color: darkgrey;
+  color: white;
+  font-size: 11px;
+  width: 110px; height: 20px;
+}
+.later:hover {
+ transition: all 3s;
+ transition-timing: ease-in-out;
+ transform: rotate(360deg);
+}
+.share {
+  display: inline-flex;
+  background-color: #106db3;
+  color: white;
+  font-size: 11px;
+  width: 110px; height: 20px;
+}
+.share:hover {
+ transition: all 3s;
+ transition-timing: ease-in-out;
+ transform: rotate(360deg);
+}
+.commentBox {
+  background-color: black;
+  width: 20px; height: 20px;
+}
+.readBox {
+  background-color: black;
+  width: 20px; height: 20px;
+}
+ p.readLater {
+   position: relative;
+   left: 15px; top: 2px
+}
+.shareBox {
+  background-color: darkblue;
+  width: 20px; height: 20px;
+}
+.popular {
+  text-align: center;
+  color: #083452;
+  font-size: 30px;
+  border-top: 1px solid lightgrey;
+}
+.bottomPhotos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0BB5FF;
+}
+.surfer {
+  opacity: .5;
+  -webkit-filter: grayscale(0) blur(0);
+	filter: grayscale(0) blur(0);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.surfer:hover {
+  animation: flash 2.5s;
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.Zac {
+opacity: .3
+}
+.Zac:hover {
+  animation: flash 2.5s;
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.bottle {
+  opacity: .2;
+}
+.bottle:hover {
+  animation: flash 2.5s;
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.beer {
+}
+.beer:hover {
+  animation: flash 2.5s;
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+a:hover, a:active {
+  background-color: yellow;
+  cursor: crosshair;
+  font-size: 150%;
+}
+.profileRight:hover {
+    transition: transform 1s;
+    transform: scale(2);
+}
+.Profile1:hover {
+    transition: transform 1s;
+    transform: scale(2);
+}
+.n5:hover {
+  transition: transform 1s;
+  transform: scale(2);
+}
+.LeftMiddle:hover{
+  transition: transform 1s;
+  transform: skewX(-20deg);
+}
+.surferBox {
+  background-color: #083452;
+  overflow: hidden;
+}
+.cool {
+  position: relative;
+  bottom: 50px;
+  left: 10px;
+  font-size: 20px;
+  color: #083452
+}
+.postT {
+  position: relative;
+  bottom: 50px;
+  left: 10px;
+  font-size: 20px;
+  color: white;
+}
+.beerBox {
+  background-color: #083452;
+  overflow: hidden;
+}
+.zacText {
+  position: relative;
+  bottom: 50px; left: 10px;
+  font-size: 20px;
+  color: #083452;
+}
+.ZacBox {
+  background-color: #083452;
+  position: relative;
+}
+.bottleBox {
+  background-color: #083452;
+}
