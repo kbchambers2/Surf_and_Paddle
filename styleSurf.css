@@ -13,7 +13,7 @@ body {
 }
 
 .Header {
-  height: 200px;
+  height: 300px;
   background-image: url(http://i63.tinypic.com/v2y62r.jpg);
   position: relative;
 }
@@ -78,7 +78,7 @@ p {
   display: inline-flex;
   position: absolute;
   right: 80%;
-  bottom: 155px;
+  bottom: 248px;
   margin: 0;
 }
 
@@ -99,13 +99,13 @@ p {
 .SearchIcon {
   position: absolute;
   left: 80%;
-  bottom: 75%;
+  bottom: 79%;
 }
 
 .CompanyName {
   text-align: center;
   position: relative;
-  top: 40px;
+  top: 70px;
 }
 
 .article {
